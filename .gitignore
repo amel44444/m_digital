@@ -1,0 +1,60 @@
+# ============================================
+# Système d'exploitation
+# ============================================
+.DS_Store
+Thumbs.db
+
+# ============================================
+# IDE / Éditeurs
+# ============================================
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.settings/
+.project
+.classpath
+
+# ============================================
+# Java / Maven (backend)
+# ============================================
+target/
+*.class
+*.jar
+*.war
+!.mvn/wrapper/maven-wrapper.jar
+
+# ============================================
+# Node.js / Angular (frontend)
+# ============================================
+node_modules/
+dist/
+.angular/
+npm-debug.log*
+yarn-error.log*
+.npm/
+
+# ============================================
+# Logs
+# ============================================
+*.log
+logs/
+
+# ============================================
+# Variables d'environnement et secrets
+# ============================================
+.env
+.env.local
+*.local
+
+# ⚠️ Ne PAS pousser les configurations sensibles
+backend/src/main/resources/application.properties
+
+# ============================================
+# Fichiers temporaires
+# ============================================
+*.bak
+*.tmp
+*.swp
+*~
